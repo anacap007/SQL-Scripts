@@ -1,3 +1,12 @@
+/*
+How to use:
+Set Results to Text instead of the typical Results To Grid.
+Also in the Options settings, go to Query Results - Results to Text - Maximum number of characters displayed in each column to 8000
+
+Run the script with the above Results settings and then copy and paste the output.
+
+*/
+
 ; WITH PK_MetaData_CTE AS
 (
 SELECT  SCHEMA_NAME(b.schema_id) as SchemaName,
